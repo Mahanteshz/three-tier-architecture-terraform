@@ -1,0 +1,15 @@
+backend-config.hcl
+backend-config.hcl*
+workflows/*/backend-config.hcl
+*.tfstate
+*.tfstate.backup
+override.tf
+*_override.tf
+.terraform/
+.terraform/*
+**/.terraform/*
+environment
+output.tf
+.terraform.lock.hcl
+terraform.tfstate.ds
+.terraform.tfstate.lock.info
